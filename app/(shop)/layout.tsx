@@ -13,7 +13,7 @@ export default function ShopLayout({ children }: { children: ReactNode }) {
         Skip to content
       </a>
       <SiteHeader />
-      <main id="main" className="flex-1 overflow-x-clip pb-14 lg:pb-0">
+      <main id="main" className="flex-1 pb-14 lg:pb-0">
         {children}
       </main>
       <SiteFooter />

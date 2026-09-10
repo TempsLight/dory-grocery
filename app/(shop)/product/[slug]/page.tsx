@@ -75,7 +75,7 @@ export default async function ProductPage({
       />
 
       <div className="mt-5 flex max-w-5xl flex-col gap-8 lg:flex-row lg:gap-12">
-        <div className="lg:sticky lg:top-32 lg:w-[22rem] lg:shrink-0 lg:self-start">
+        <div className="lg:w-[22rem] lg:shrink-0">
           <ProductGallery product={product} />
         </div>
 

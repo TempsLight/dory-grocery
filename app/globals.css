@@ -189,6 +189,10 @@
     @apply bg-background text-foreground;
     font-feature-settings: "cv05" 1, "ss03" 1;
     text-rendering: optimizeLegibility;
+    /* Contain any stray horizontal bleed without creating a scroll
+       container — `clip` (unlike `hidden`) does not break `position: sticky`
+       for descendants. */
+    overflow-x: clip;
   }
 
   /* Display face for headings + the wordmark */
