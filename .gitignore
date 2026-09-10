@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# tooling / local workspace
+/.claude
+/.impeccable
+/.opencode
+/.review
+
+# local docs (not checked in)
+/WALKTHROUGH.md
+/DESIGN.md
+
