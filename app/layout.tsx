@@ -26,7 +26,7 @@ const mono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://dory.grocery"),
   title: {
-    default: "Dory Grocery — The neighbourhood grocery, delivered",
+    default: "Dory G",
     template: "%s · Dory Grocery",
   },
   description:
